@@ -1,0 +1,27 @@
+{
+  "name": "zhihu-crawler",
+  "version": "1.0.0",
+  "description": "码蜂社 Node.js 练习项目，爬取知乎问题和答案信息，并存入 Mongodb 中",
+  "main": "htmlDecode.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "mongodb": "^2.2.30",
+    "mongoose": "^4.11.5",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zl810881283/web-senior-project-crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zl810881283/web-senior-project-crawler/issues"
+  },
+  "homepage": "https://github.com/zl810881283/web-senior-project-crawler#readme"
+}
