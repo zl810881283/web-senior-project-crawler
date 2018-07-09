@@ -9,16 +9,8 @@ const Tesseract = require('tesseract.js')
 const step = 10
 const gap = 1000 //ms
 
-const start = 21197608
-const end = 26426198 
-function sleep(ms) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve()
-        }, ms)
-    })
-
-}
+const start = 21165391
+const end = 30000000
 function* range(start, end) {
     for (let i = start; i < end; i++) {
         yield i

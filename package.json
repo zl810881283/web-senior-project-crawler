@@ -4,11 +4,14 @@
   "description": "码蜂社 Node.js 练习项目，爬取知乎问题和答案信息，并存入 Mongodb 中",
   "main": "htmlDecode.js",
   "dependencies": {
+    "bluebird": "^3.5.0",
+    "bluebird-retry": "^0.11.0",
     "cheerio": "^1.0.0-rc.2",
     "mongodb": "^2.2.30",
     "mongoose": "^4.11.5",
     "request": "^2.81.0",
-    "request-promise": "^4.2.1"
+    "request-promise": "^4.2.1",
+    "tesseract.js": "^1.0.10"
   },
   "devDependencies": {},
   "scripts": {
